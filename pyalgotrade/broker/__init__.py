@@ -41,7 +41,7 @@ class InstrumentTraits(object):
 
 class IntegerTraits(InstrumentTraits):
     def roundQuantity(self, quantity):
-        return int(quantity)
+        return (quantity)
 
 
 ######################################################################
